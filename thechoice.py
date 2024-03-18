@@ -1,8 +1,3 @@
-#!/usr/bin/env bash
-# TheChoice v1.0
-# Coded by @thelinuxchoice (Don't change, noob!)
-# Github: https://github.com/thelinuxchoice/thechoice
-
 
 lhost="159.89.214.31"
 format=""
@@ -1221,21 +1216,9 @@ fi
 
 
 
-}
-
-banner() {
-printf "\e[1;77m _______ _              _______ _           _              \n"
-printf "(_______) |            (_______) |         (_)             \n"
-printf "    _   | |__  _____    _      | |__   ___  _  ____ _____  \n"
-printf "   | |  |  _ \| ___ |  | |     |  _ \ / _ \| |/ ___) ___ | \n"
-printf "   | |  | | | | ____|  | |_____| | | | |_| | ( (___| ____| \n"
-printf "   |_|  |_| |_|_____)   \______)_| |_|\___/|_|\____)_____) v1.0\e[0m\n"
-printf "\n"
-printf "            \e[1;93m.:.\e[0m\e[1;92m Coded by\e[0m\e[1;77m  @thelinuxchoice \e[0m\e[1;93m.:.\e[0m\n"
-printf "\n"                                                          
-
-
-}
+from pyfiglet import Figlet
+f = Figlet(font='slant')
+print(f.renderText('red hack'))
 
 
 menu() {
